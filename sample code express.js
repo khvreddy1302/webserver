@@ -1,7 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = require("express");
-// var app = (0, express_1.default)();
+// Object.defineProperty(exports, "__esModule", { value: true });
+const express = require("express");
+var app = (0, express_1.default)();
 // app.com
 // app/help
 // app/about
