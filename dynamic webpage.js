@@ -13,14 +13,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.get('/', (req, res) => {
   res.render('index',{
     title:'weather-app',
-    name:'Harsha'
+    name:'John'
   }); // This will render the 'index.hbs' file located in the 'views' folder
 });
 
 app.get('/about',(req,res)=>{
     res.render('about',{
         title:'About me',
-        name:'Harshavardhan'
+        name:'Andrew '
     })
 })
 
@@ -33,7 +33,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        title:'For help call police'
+        title:'This is some helpful text'
     })
 })
 // Start the server
