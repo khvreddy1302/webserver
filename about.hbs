@@ -1,13 +1,18 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <link rel="stylesheet"href="/css/styles.css">
-    </head>
-    <body>
-        <h1>
-            {{title}}
-            <img src="/img/formal pic.jpg">
-            created by {{name}}
-        </h1>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    {{>header}}
+    <h1>{{title}}</h1>
+    <img src="/img/formal pic.jpg">
+    <img src="/img/iqoo.png">
+    <p>Created by {{name}}</p>
+    {{>footer}}
+</body>
+
 </html>
